@@ -5,7 +5,7 @@
 ## HackaMaster Team
 # Project BlockStay
 
-<p><a href="https://github.com/DevSoniaBatista/hackaton-blockStay-NearX">
+<p><a href="https://github.com/DevSoniaBatista/hackNearx-BlockStay">
 GitHub
 </a></p>
 
