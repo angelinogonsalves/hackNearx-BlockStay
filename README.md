@@ -1,5 +1,5 @@
 
-<h1 align="center"> <img src="./blockstay-ui/public/LogoBlockStay.png">
+<h1 align="center"> <img src="./doc/LogoBlockStay.png">
 </h1>
 
 ## HackaMaster Team
