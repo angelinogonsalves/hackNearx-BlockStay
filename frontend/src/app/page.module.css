@@ -1,0 +1,317 @@
+/*homepage*/
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.description {
+  text-align: center;
+}
+
+.logoHome {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.headerContent {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.headerImage {
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subtitle {
+  color: #575252;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.metaMaskContainer {
+  margin-top: 50px;
+}
+
+.connectButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.connectButton:hover {
+  background-color: #0056b3;
+}
+
+.metaMaskIcon {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.connectedMessage {
+  margin-top: 10px;
+  color: green;
+}
+
+.message {
+  margin-top: 10px;
+  color: red;
+}
+
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border-color: #000;
+}
+
+.header {
+  display: flex;
+  align-items: right;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.wallet {
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: 80px; 
+  border-color: #0056b3;
+}
+
+.message {
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+.actionButton {
+  padding: 10px 20px;
+  background-color: #c4c9ce;
+  color: #484545;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.actionButton:hover {
+  background-color: #a1bbd5;
+}
+
+.explorerButton {
+  padding: 10px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explorerButton:hover {
+  background-color: #0056b3;
+}
+
+.divider {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+
+/**/
+.descriptionMethods {
+  background-color: #d3dad3;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 80%;
+  height: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  background-color: #4e514e;
+  color: rgb(244, 240, 240);
+  font-size: 1rem;
+  margin-bottom: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.formGroupTitle {
+  color: rgb(68, 63, 63);
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+.formGroup{
+  margin-bottom: 7px;
+}
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+}
+
+.input {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.7rem;
+}
+.inputMedium {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.inputSmall {
+  width: 10%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.transactionResult {
+  font-size: 0.7rem;
+  color: #666;
+}
+.transactionResult label {
+  font-style: bold;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: #333; /* Cor do texto */
+  font-size: 16px; /* Tamanho da fonte */
+  margin-right: 20px; /* Espaçamento entre os links */
+  padding: 10px; /* Espaçamento interno */
+  transition: color 0.3s ease; /* Transição suave de cor */
+}
+
+.menuLink:hover {
+  color: #666; /* Cor do texto ao passar o mouse */
+}
+
+.activeMenu {
+  font-weight: bold; /* Texto em negrito para o link ativo */
+  color: #000; /* Cor do texto do link ativo */
+}
+
+.smallText{
+  font-size: 10px; /* Tamanho da fonte */
+}
+
+.custom-file-upload {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para cada item da grade */
+.item {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+/* Estilos para o cartão */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para a imagem do cartão */
+.card-img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Estilos para o conteúdo do cartão */
+.card-content {
+  padding: 16px;
+}
+
+/* Estilos para o título do cartão */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Estilos para o texto do cartão */
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Estilos para os links do cartão */
+.card-link {
+  display: block;
+  margin-top: 16px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
