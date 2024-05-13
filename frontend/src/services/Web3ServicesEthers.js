@@ -3,11 +3,10 @@ import ABI from "./ABI.json";
 import { createJson, uploadJson, getJson } from "./util.js";
 
 const CONTRACT_ADDRESS = "0x1c679a3Abb9a09450a141b5e434d11146DaF7D55"; //sepolia
+const NETWORK_ID_ALLOWED =  11155111n; // sepolia network
+
 //const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; //anvil 
-
-const NETWORK_ID_ALLOWED =  11155111n; // rede sepolia
-//const NETWORK_ID_ALLOWED =  31337n; // rede  anvil
-
+//const NETWORK_ID_ALLOWED =  31337n; // anvil network
 
 export async function doLogin(){
 
