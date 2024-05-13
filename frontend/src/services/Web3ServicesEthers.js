@@ -3,14 +3,10 @@ import ABI from "./ABI.json";
 import { createJson, uploadJson, getJson } from "./util.js";
 
 const CONTRACT_ADDRESS = "0x1c679a3Abb9a09450a141b5e434d11146DaF7D55"; //sepolia
-
-//const CONTRACT_ADDRESS = "0xCD72273173b450446DAE1c191589C64224B968E2"; //amoy
-//const CONTRACT_ADDRESS = "0xA7560AF30227463F8505Ba28C59848B0b21A1d8a"; //optimism
 //const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; //anvil 
 
 const NETWORK_ID_ALLOWED =  11155111n; // rede sepolia
-//const NETWORK_ID_ALLOWED =  11155420n; // optmism
-//const NETWORK_ID_ALLOWED =  80002n; // rede amoy
+//const NETWORK_ID_ALLOWED =  31337n; // rede  anvil
 
 
 export async function doLogin(){
@@ -37,7 +33,7 @@ export async function doLogin(){
     return provider;
 }
 
-export const F = async () => {
+export const getContract = async () => {
     const provider = await doLogin();
     const contract = new ethers.Contract(CONTRACT_ADDRESS, ABI, provider);
     return contract;

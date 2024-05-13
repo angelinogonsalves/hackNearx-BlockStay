@@ -45,9 +45,9 @@ This Solidity code creates a smart contract named BlockStayNFT to handle hotel b
 Overall, this contract acts as a decentralized booking system, providing transparency and security to both the hotel and its guests.
 
 ### CONTRACT ADDRESS Deployed at Optimism Sepolia
-0xC913891E189cFB459739f9829CE3FAA5e42ae1c3
+0x1c679a3Abb9a09450a141b5e434d11146DaF7D55
 ### Explorer Scan
-https://sepolia-optimism.etherscan.io/address/0xC913891E189cFB459739f9829CE3FAA5e42ae1c3
+https://sepolia.etherscan.io/address/0x1c679a3Abb9a09450a141b5e434d11146DaF7D55
 
 ![image](./doc/explorer.png)
 
