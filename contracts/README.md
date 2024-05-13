@@ -1,66 +1,27 @@
-## Foundry
+## contracts
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
+Smart Contract written in Solidity and executed on Foundry.
 
 ## Usage
-
-### Build
-
-```shell
-$ forge build
+```bash
+# install dependencies OpenZeppelin
+forge install OpenZeppelin/openzeppelin-contracts --no-commit
 ```
 
-### Test
+To run, locally, open 2 terminals:
 
-```shell
-$ forge test
+On the first Terminal
+```bash
+anvil
 ```
 
-### Format
+Copy file .env.example to .env
+Update variables at .env
 
+
+On the Second Terminal
 ```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+# deploy contract 
+source .env
+forge script script/BlockStayNFT.s.sol:BlockStayNFTScript --rpc-url "http://127.0.0.1:8545"
 ```
