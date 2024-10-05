@@ -56,22 +56,6 @@ https://sepolia.etherscan.io/address/0x1c679a3Abb9a09450a141b5e434d11146DaF7D55
  - Foundry
  - Smart Contract => Solidity 
  - Front-end (nextjs)
-
-### How execute
-```bash
-#clone the project
-git clone https://github.com/DevSoniaBatista/oly-polygon.git
-```
-
-```bash
-#enter directory
-cd oly-polygon
-```
-
-```bash
-#install dependencies
-yarn install
-```
  
 To run locally, open 3 terminals:
 
